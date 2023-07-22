@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url(../typo/Helvetica.ttc) format("truetype");
+}
+
+body {
+    color: #152440;
+    font-family: "Helvetica";
+}
+
+a {
+    color: #152440;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header {
+    height: 500px;
+    background: url("../img/cris-contact.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.nav-space {
+    width: 20px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 180px;
+}
+
+
+.flex-container2 {
+    display: flex;
+    align-items: first baseline;
+}
+.size {
+    width: 700px;
+    margin: 60px 40px 60px 40px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.strong {
+    font-weight:700;
+  }
+  
+.margin {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.botton {
+display: flex;
+width: 248px;
+background-color: #152440;
+color: white;
+border-radius: 12px;
+padding: 24px;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
+
+footer {
+    height: 150px;
+}
+
+footer img {
+    color: #152440;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}

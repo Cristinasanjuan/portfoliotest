@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url(../typo/Helvetica.ttc) format("truetype");
+}
+
+body {
+    color: #152440;
+    font-family: "Helvetica";
+}
+
+a {
+    color: #152440;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header {
+    height: 500px;
+    background: url("../img/project001.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.nav-space {
+    width: 20px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 180px;
+}
+
+.space {
+    width: 50%;
+}
+
+.header-mobile {
+    display: none;
+}
+
+.img-p {
+    display: none;
+}
+.explanation {
+    display: flex;
+    justify-content: center;
+    padding: 64px 64px;
+    align-items: flex-start;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p {
+font-size: 18px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.photos img {
+    width: 1260px;
+    height: 700px;
+}
+
+h3 {
+font-size: 24px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 0 24px 0;
+    }
+
+.ref-left {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: left;
+    margin-left: 40px;
+}
+
+.ref-right {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: right;
+    margin-right: 40px;
+}
+
+footer {
+    height: 150px;
+}
+
+footer img {
+    color: #152440;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+
+/* Movil*/
+@media (max-width: 600px) {
+
+    .header {
+        display: none
+    }
+    
+    .header-mobile {
+        display: flex;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+ 
+.img-p {
+    display: flex;
+}
+}
